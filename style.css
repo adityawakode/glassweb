@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  font-weight: 600;
+  color: rgb(54, 48, 48);
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to left top, #3800d1, #88b1ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  backdrop-filter: blur(2rem);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  display: flex;
+}
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.5)
+  );
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  position: absolute;
+}
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+}
+
+.status p {
+  padding: 1rem;
+}
+
+.link img {
+  width: 50px;
+  height: 50px;
+}
+.link {
+  display: flex;
+  margin: 5rem, 0rem;
+  padding: 1rem 5rem;
+  text-align: center;
+}
+.link h2 {
+  padding: 0.4rem 2rem;
+}
+
+.join {
+  background: linear-gradient(to left top, #74d8ff, #0059ff);
+  border-radius: 2rem;
+  display: flex;
+}
+
+.join img {
+  width: 70px;
+  height: 70px;
+}
+.join h2 {
+  width: 15rem;
+  padding: 1rem;
+  color: white;
+}
+
+.status {
+  text-align: center;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
